@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+nav {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bb9bb0;
+  z-index: 2;
+}
+nav ul {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  background-color: #bb9bb0;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 3rem;
+}
+nav ul li a {
+  color: white;
+  text-underline-offset: 3px;
+  position: relative;
+  padding: 5px;
+}
+
+/* >>>>>>home section>>>>>> */
+
+.home{
+  width: auto;
+  height: auto;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* gap: 1rem; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: 1rem;
+  border: 1px solid #a288a6;
+  box-shadow: inset  0px 0px 8px 4px #a288a6;
+  border-radius: 4px;
+  padding: 1rem;
+}
+.home h2{
+  color: #46005b;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.home i{
+  width: 100%;
+  /* text-align: center; */
+  font-size: 1.1rem;
+  /* display: flex; */
+  /* list-style: none; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  /* gap: 1rem; */
+  /* color: #894f8a; */
+  /* font-weight: 600; */
+}
+
+
+
+
+/* >>>>>>>>>Education section */
+
+.about{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  /* background: #635f5f; */
+  border: 1px solid #a288a6;
+  box-shadow: inset  0px 0px 8px 4px #a288a6;
+  border-radius: 4px;
+  padding: 1rem;
+}
+.about .program {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+.about .program .eduBox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+  /* background-color: #000; */
+}
+.about .program h1{
+  color: #46005b;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.about .program ul{
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #894f8a;
+  font-weight: 600;
+}
+.about .program ul li{
+  border-bottom: 2px solid #894f8a;
+border-radius: 4px;
+padding: 2px;
+}
+.about .program h3{
+  color: #bb9bb0;
+}
+.about .program h3 bold {
+  color: #a97496;
+}
+.about .program div{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
+  align-items: start;
+  gap: .6rem;
+  
+}
+
+/* >>>>>>>>Project section>>>>>>> */
+.project {
+  position: relative;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  border: 1px solid #a288a6;
+  box-shadow: inset  0px 0px 8px 4px #a288a6;
+  border-radius: 4px;
+  padding: 1.4rem;
+}
+.project .project_container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.project h1{
+  color: #46005b;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.project .projectBox {
+  color: rgb(245, 245, 245);
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 2px 8px 2px rgba(98, 97, 97, 0.865);
+  border-radius: 10px;
+}
+.project img {
+  opacity: 60;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+.projectBox h3{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.projectBox .linkBox{
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  text-decoration: none;
+
+}
+.projectBox .linkBox a{
+  text-decoration: none;
+
+}
+.projectBox .linkBox h5{
+  border-radius: 4px;
+  color: white;
+  padding: 4px;
+  border: 1px solid #a288a6;
+background-color: #a288a6c8;
+}
+
+
+/* >>>>>>Footer section>>>>>>>>>>>> */
+
+
+footer {
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #bb9bb0;
+}
+footer .icon a {
+  color: white;
+  font-size: 1.4rem;
+  margin: 0.5rem;
+}
+footer h6 {
+  color: white;
+  font-size: 1rem;
+  margin: 0.5rem;
+  font-weight: 100;
+}
